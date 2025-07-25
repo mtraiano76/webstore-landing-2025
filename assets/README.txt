@@ -1,0 +1,1 @@
+Coloca aquí las imágenes: hero.jpg, proyecto1.jpg, proyecto2.jpg, proyecto3.jpg

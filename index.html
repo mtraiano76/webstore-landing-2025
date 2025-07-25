@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WEB-STORE</title>
+  <meta name="description"
+    content="Creamos soluciones web modernas y funcionales. Landing pages, tiendas online y aplicaciones.">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">WEB-STORE</a>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon"><i class="bx bx-menu" id="menu-icon"></i></label>
+    <ul class="navlist">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#nosotros">Quiénes somos</a></li>
+      <li><a href="#beneficios">Por qué elegirnos</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h5>Potenciamos tu presencia digital</h5>
+      <h4>Desarrollo Web Moderno</h4>
+      <h1>Landing Pages | E-commerce | Apps</h1>
+      <p>Transformamos ideas en sitios web impactantes, funcionales y listos para crecer.</p>
+      <a href="#contacto">Agenda tu llamada</a>
+    </div>
+    <div class="hero-img">
+      <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
+        alt="Hero Image" style="max-width:100%;border-radius:10px;">
+    </div>
+  </section>
+
+  <section id="nosotros" class="section">
+    <h2>Quiénes somos</h2>
+    <p>Somos un equipo de desarrolladores apasionados por construir soluciones digitales que combinan diseño moderno y
+      funcionalidad. Ayudamos a empresas y emprendedores a destacarse en el mundo online.</p>
+  </section>
+
+  <section id="beneficios" class="section beneficios">
+    <h2>Por qué elegirnos</h2>
+    <div class="benefit-grid">
+      <div class="benefit"><i class="ri-flashlight-line"></i>
+        <h3>Velocidad</h3>
+        <p>Webs rápidas y optimizadas para mejorar la experiencia del usuario.</p>
+      </div>
+      <div class="benefit"><i class="ri-smartphone-line"></i>
+        <h3>Responsive</h3>
+        <p>Diseño adaptable a cualquier dispositivo: móvil, tablet o desktop.</p>
+      </div>
+      <div class="benefit"><i class="ri-lock-line"></i>
+        <h3>Seguridad</h3>
+        <p>Implementamos buenas prácticas para sitios seguros y confiables.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="section proyectos">
+    <h2>Proyectos recientes</h2>
+    <div class="proyectos-grid">
+      <div class="proyectos-grid">
+        <div class="proyecto">
+          <img src="assets/imagen1.jpg" alt="Guitar Shop">
+          <p class="proyecto-titulo">
+            <a href="https://guitar-shop2.netlify.app/" target="_blank">Guitar Shop</a>
+          </p>
+        </div>
+        <div class="proyecto">
+          <img src="assets/imagen2.jpg" alt="AVA DOLPHINE">
+            <p class="proyecto-titulo">
+              <a href="https://www.ava-dolphine.com.ar" target="_blank">AVA - DOLPHINE</a>
+            </p>
+          </a>
+        </div>
+        <div class="proyecto">
+          <img src="assets/imagen3.jpg" alt="Landing Page Design">
+          <p class="proyecto-titulo">Landing Page Design</p>
+        </div>
+        <div class="proyecto">
+          <img src="assets/imagen4.jpg" alt="Mundo Helado">
+            <p class="proyecto-titulo">
+              <a href="https://www.mundohelado.com" target="_blank">Mundo Helado</a>
+            </p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="contacto" class="section contacto">
+    <h2>Contacto</h2>
+    <form class="formulario" action="enviar.php" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required />
+      <input type="email" name="email" placeholder="Tu email" required />
+      <input type="text" name="telefono" placeholder="Tu teléfono" />
+      <textarea name="mensaje" placeholder="Contanos tu proyecto" required></textarea>
+      <input type="submit" value="Enviar">
+    </form>
+
+  </section>
+
+  <footer>
+    <p>© 2025 WEB-STORE. Todos los derechos reservados.</p>
+  </footer>
+
+
+
+
+  <!-- Barra social fija -->
+  <div class="social">
+    <a href="https://instagram.com/webstoredesarrollo" target="_blank"><i class="ri-instagram-line"></i></a>
+    <a href="https://github.com" target="_blank"><i class="ri-github-line"></i></a>
+    <a href="https://youtube.com" target="_blank"><i class="ri-youtube-line"></i></a>
+    <a href="https://wa.me/5491132595762" class="whatsapp-float" target="_blank">
+      <i class="ri-whatsapp-line"></i>
+    </a>
+  </div>
+
+</body>
+
+</html>
